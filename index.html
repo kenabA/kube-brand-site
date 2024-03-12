@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <title>KUBE - Clothing Brand</title>
+  </head>
+  <body>
+    <main>
+      <!-- SECTION : HERO -->
+      <section class="section-hero section">
+        <div class="hero grid grid--2-cols container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Lorem, ipsum dolor.</h1>
+            <p class="hero-description description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores,
+              quis. In ad ullam inventore cupiditate placeat aliquam modi nobis
+              veniam?
+            </p>
+            <div class="hero-btn-box">
+              <a href="#products" class="btn btn-full"
+                ><i class="fa-solid fa-arrow-down me-8"></i> get started
+              </a>
+              <a href="#" class="btn btn-outline"
+                ><i class="fa-solid fa-cart-shopping me-8"></i> view shop</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-image-box">
+            <img
+              class="hero-image"
+              src="./image/hero.jpeg"
+              alt="A man using his laptop, surfing through his laptop."
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : PRODUCTS -->
+      <section id="products" class="section-products section">
+        <div class="container products">
+          <div class="heading-box-center mb-48">
+            <span class="heading-sub-text">view our creations</span>
+            <h2 class="heading-secondary mb-32">Products</h2>
+            <p class="description products-description">
+              Discover exceptional products crafted with passion
+            </p>
+          </div>
+          <div class="products-card-box grid grid--4-cols mb-80">
+            <div class="product-card product-card-1">
+              <div class="product--img-box">
+                <img
+                  class="product--img img-scale"
+                  src="./image/leather-jacket.jpg"
+                  alt="product"
+                />
+              </div>
+              <div class="product--text-box">
+                <h4 class="heading-quaternary mb-24">Leather Jacket</h4>
+                <p class="product-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="product-card product-card-2">
+              <div class="product--img-box">
+                <img
+                  class="product--img img-scale"
+                  src="./image/hoodie.jpg"
+                  alt="product"
+                />
+              </div>
+              <div class="product--text-box">
+                <h4 class="heading-quaternary mb-24">Hoodies</h4>
+                <p class="product-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="product-card product-card-3">
+              <div class="product--img-box">
+                <img
+                  class="product--img img-scale"
+                  src="./image/sweatshirt.jpg"
+                  alt="product"
+                />
+              </div>
+              <div class="product--text-box">
+                <h4 class="heading-quaternary mb-24">Sweat Shirts</h4>
+                <p class="product-description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="product-card product-card-4">
+              <div class="product--img-box">
+                <img
+                  class="product--img img-scale"
+                  src="/image/tshirt.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="product--text-box">
+                <h4 class="heading-quaternary mb-24">Tshirts</h4>
+                <p class="product-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-view-box grid align-center grid--2-cols">
+            <img
+              class="product--img product--view--img"
+              src="/image/warehouse.jpeg"
+              alt=""
+            />
+            <div class="product-view-details">
+              <div class="product-view--heading mb-64">
+                <span class="heading-sub-text">LABEL</span>
+                <h3 class="heading-tertiary product-view-title mt-12">
+                  Lorem, ipsum
+                </h3>
+              </div>
+              <div class="product-view-details--body mb-48">
+                <div class="product-links">
+                  <a data-value="1" class="product-view--link product" href="#"
+                    >LINK 1</a
+                  >
+                  <a data-value="2" class="product-view--link product" href="#"
+                    >LINK 2</a
+                  >
+                  <a data-value="3" class="product-view--link product" href="#"
+                    >LINK 3</a
+                  >
+                  <a data-value="4" class="product-view--link product" href="#"
+                    >LINK 4</a
+                  >
+                </div>
+                <p class="product-description mb-16">
+                  Magna aliquaenim minim veniam quis nostrud exercitation
+                  ullamco laborisLorem ipsum dolor sit amet consectetur
+                  adipisicing elit sed do eius tempor incididunt labore.
+                </p>
+                <p class="product-description mb-16">Magna aliquaenim minim</p>
+                <p class="product-description">quis nostrud exercitation</p>
+              </div>
+              <a class="btn btn-full" href="#"
+                ><i class="fa-solid fa-cart-shopping me-8"></i> shop now</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : GALLERY -->
+      <section class="section-gallery section">
+        <!-- - Gallery (CTA -> View More) -->
+        <div class="container gallery">
+          <div class="heading-box-center mb-48">
+            <span class="heading-sub-text">collage</span>
+            <h2 class="heading-secondary mb-32">Gallery</h2>
+            <p class="description products-description">
+              Immerse yourself in a visual adventure of our brand
+            </p>
+          </div>
+          <div class="grid gallery-grid grid--3-cols mb-48 gap-48">
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/hero.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/warehouse.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/leather-jacket.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/sweatshirt.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/hoodie.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/tshirt.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card gallery--card-extra">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/leather-jacket.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card gallery--card-extra">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/warehouse.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+            <div class="gallery--card gallery--card-extra">
+              <div class="gallery--img-box gallery-img-1">
+                <img
+                  class="product--img top-round"
+                  src="/image/hero.jpeg"
+                  alt=""
+                />
+              </div>
+              <div class="gallery-details bottom-round">
+                <h4 class="heading-quaternary mb-8 fw-light">Lorem, ipsum</h4>
+                <p class="product-description">lorem</p>
+              </div>
+            </div>
+          </div>
+          <div class="center">
+            <button
+              onclick="loadMoreGallery()"
+              class="btn btn-simple view-more"
+            >
+              View More <i class="fa-solid fa-arrow-down ms-8"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : HOW-TO -->
+      <section class="section-how-to section">
+        <div class="container how-to">
+          <div class="grid grid--2-cols align-center how--to">
+            <div class="how-to--details">
+              <div class="heading-box-left mb-80 how-to--header">
+                <span class="heading-sub-text">how it's made</span>
+                <h2 class="heading-secondary">Creation Procedures</h2>
+              </div>
+              <div class="accordion">
+                <div class="accordion--content">
+                  <div class="label">
+                    <span class="steps">01</span><span>Choose Fabrics</span>
+                  </div>
+                  <div class="content product-description">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion--content">
+                  <div class="label">
+                    <span class="steps">02</span><span>Handcraft Product</span>
+                  </div>
+                  <div class="content product-description">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+                <div class="accordion--content">
+                  <div class="label">
+                    <span class="steps">03</span><span>Deployment</span>
+                  </div>
+                  <div class="content product-description">
+                    <p>
+                      Lorem ipsum dolor sit amet consectur adipiscing elit sed
+                      eius mod ex tempor incididunt labore dolore magna
+                      aliquaenim ad minim eniam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="how-to--image">
+              <img class="product--img img" src="./image/hero.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : TESTOMONIAL -->
+      <section class="section-testimonial section">
+        <div class="container testimonial">
+          <div class="heading-box-center mb-48">
+            <span class="heading-sub-text">voices of satifaction</span>
+            <h2 class="heading-secondary mb-32">Testimonials</h2>
+            <p class="description products-description">
+              Discover what our customers have to say about their experience.
+            </p>
+          </div>
+          <div class="testimonial-container">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="testimonial-box swiper-slide blur">
+                  <p class="product-description mb-48">
+                    Lorem ipsum dolor amet consectur elit adicing elit sed mod
+                    tempor incid idunt enim minim veniam quis nosrud citation
+                    laboris nisiste aliquip comodo perspiatix unde omnis iste
+                    natus error sit voluptatem. accusantium doloreq laudantum
+                  </p>
+                  <p class="person-name mb-8">Haley Bennet</p>
+                  <span class="person-position">Designer</span>
+                </div>
+                <div class="testimonial-box swiper-slide blur">
+                  <p class="product-description mb-48">
+                    Lorem ipsum dolor amet consectur elit adicing elit sed mod
+                    tempor incid idunt enim minim veniam quis nosrud citation
+                    laboris nisiste aliquip comodo perspiatix unde omnis iste
+                    natus error sit voluptatem. accusantium doloreq laudantum
+                  </p>
+                  <p class="person-name mb-8">Haley Bennet</p>
+                  <span class="person-position">Designer</span>
+                </div>
+                <div class="testimonial-box swiper-slide blur">
+                  <p class="product-description mb-48">
+                    Lorem ipsum dolor amet consectur elit adicing elit sed mod
+                    tempor incid idunt enim minim veniam quis nosrud citation
+                    laboris nisiste aliquip comodo perspiatix unde omnis iste
+                    natus error sit voluptatem. accusantium doloreq laudantum
+                  </p>
+                  <p class="person-name mb-8">Haley Bennet</p>
+                  <span class="person-position">Designer</span>
+                </div>
+              </div>
+            </div>
+            <div class="testimonial-buttons-container">
+              <img
+                class="testimonial-button"
+                src="/image/wm1.jpg"
+                data-slide="0"
+              />
+              <img
+                class="testimonial-button"
+                src="/image/m1.jpg"
+                data-slide="1"
+              />
+              <img
+                class="testimonial-button"
+                src="/image/wm2.jpg"
+                data-slide="2"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : MULTIMEDIA -->
+      <section class="section-multimedia section">
+        <div class="container multimedia">
+          <div class="grid grid--2-cols multimedia--video-boxes gap-48 mb-80">
+            <div class="video-box">
+              <video muted loop class="video" width="100%" controls>
+                <source src="/video/uivisuals-intro.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="video-box">
+              <video muted loop class="video" width="100%" controls>
+                <source src="/video/personal-intro.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+          <div class="grid grid--4-cols multimedia--img-boxes gap-48">
+            <div class="multimedia--img-box">
+              <img
+                class="product--img multimedia-img"
+                src="/image/leather-jacket.jpg"
+                alt=""
+              />
+            </div>
+            <div class="multimedia--img-box">
+              <img
+                class="product--img multimedia-img"
+                src="/image/leather-jacket.jpg"
+                alt=""
+              />
+            </div>
+            <div class="multimedia--img-box">
+              <img
+                class="product--img multimedia-img"
+                src="/image/leather-jacket.jpg"
+                alt=""
+              />
+            </div>
+            <div class="multimedia--img-box">
+              <img
+                class="product--img multimedia-img"
+                src="/image/leather-jacket.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION : EXTRAS -->
+      <section class="section-extras section">
+        <div class="container extras">
+          <div class="heading-box-center mb-48">
+            <span class="heading-sub-text">Beyond the Mainstage</span>
+            <h2 class="heading-secondary">Explore Our Extras</h2>
+          </div>
+          <div class="extras-card-container grid grid--3-cols gap-48">
+            <div class="floating-card">
+              <div class="floating-card--img-box">
+                <img class="product--img" src="/image/hero.jpeg" alt="" />
+              </div>
+              <div class="floating-card-container">
+                <div class="floating-card-details">
+                  <span class="heading-sub-text">LABEL</span>
+                  <h5 class="heading-quinery mt-12 mb-8">Lorem <br />ipsum</h5>
+                  <span class="date">2024 / 03 / 10</span>
+                  <p class="product-description mt-32">
+                    Lorem ipsum dolor sit amet cons tetur adipisicing sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="floating-card--img-box">
+                <img class="product--img" src="/image/hero.jpeg" alt="" />
+              </div>
+              <div class="floating-card-container">
+                <div class="floating-card-details">
+                  <span class="heading-sub-text">LABEL</span>
+                  <h5 class="heading-quinery mt-12 mb-8">Lorem <br />ipsum</h5>
+                  <span class="date">2024 / 03 / 10</span>
+                  <p class="product-description mt-32">
+                    Lorem ipsum dolor sit amet cons tetur adipisicing sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="floating-card">
+              <div class="floating-card--img-box">
+                <img class="product--img" src="/image/hero.jpeg" alt="" />
+              </div>
+              <div class="floating-card-container">
+                <div class="floating-card-details">
+                  <span class="heading-sub-text">LABEL</span>
+                  <h5 class="heading-quinery mt-12 mb-8">Lorem <br />ipsum</h5>
+                  <span class="date">2024 / 03 / 10</span>
+                  <p class="product-description mt-32">
+                    Lorem ipsum dolor sit amet cons tetur adipisicing sed.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- SECTION : FOOTER -->
+    <footer class="section section-footer">
+      <div class="container footer">
+        <div class="grid grid-footer">
+          <div class="brand-details">
+            <span class="heading-tertiary footer-logo"
+              ><span class="color-primary">K</span>UBE</span
+            >
+            <p class="product-description mb-24">
+              Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor
+              incidid unt labore dolore.
+            </p>
+            <p class="mb-16 product-description brand-desc">
+              <i class="fa-solid fa-location-dot"></i>Jhamsikhel, Lalitpur
+            </p>
+            <p class="mb-16 product-description brand-desc">
+              <i class="fa-solid fa-phone"></i>01-4314612
+            </p>
+            <p class="product-description brand-desc">
+              <i class="fa-solid fa-envelope"></i>info@edublink.com
+            </p>
+          </div>
+          <div class="link-box link-box-1">
+            <h5 class="heading-quinery mb-48 footer-title">Account</h5>
+            <ul class="footer-links">
+              <li><a class="footer-link" href="#">Create account</a></li>
+              <li><a class="footer-link" href="#">Sign in</a></li>
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+              <li><a class="footer-link" href="#">Forgot password</a></li>
+              <li><a class="footer-link" href="#">Change password</a></li>
+            </ul>
+          </div>
+          <div class="link-box link-box-2">
+            <h5 class="heading-quinery mb-48 footer-title">Company</h5>
+            <ul class="footer-links">
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >About brand</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >For business</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >Business partners</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >Help center</a
+                >
+              </li>
+              <li>
+                <a
+                  class="footer-link"
+                  href="
+                #"
+                  >Privacy & Terms</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="contact-box">
+            <h5 class="heading-quinery mb-48 footer-title">Contact</h5>
+            <p class="product-description mb-24">
+              Lorem ipsum dolor amet consecto adi pisicing elit sed
+            </p>
+            <form class="footer-form">
+              <input
+                placeholder="example@gmail.com"
+                type="text"
+                class="email-input left-round"
+              />
+              <button class="btn btn-small btn-full right-round">
+                <i class="fa-solid fa-arrow-right me-8"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/4cbeaa27da.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+  <script src="/js/swiper.js"></script>
+</html>

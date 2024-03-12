@@ -1,0 +1,99 @@
+/* BELOW 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/* BELOW 944px */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .contact-box {
+    grid-column: span 2;
+  }
+}
+
+/* BELOW 704px (Smaller Tablets) */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  /* SECTION HERO */
+
+  .hero {
+    grid-template-columns: 1fr !important;
+    grid-auto-flow: column-reverse !important;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .hero-btn-box {
+    justify-content: center;
+  }
+
+  /* SECTION GALLERY */
+  .products-card-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .product--img-box {
+    height: 18.2rem;
+  }
+  .product-view-box {
+    grid-template-columns: 1fr;
+  }
+  .product-view-details {
+    text-align: center;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* SECTION HOW TO */
+  .how--to {
+    grid-template-columns: 1fr;
+  }
+
+  /* SECTION MULTIMEDIA */
+  .multimedia--video-boxes {
+    grid-template-columns: 1fr;
+  }
+  .multimedia--img-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .extras-card-container {
+    grid-template-columns: 1fr;
+  }
+  .grid-footer {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-box {
+    grid-column: span 1;
+  }
+
+  .link-box {
+    grid-row: 1;
+  }
+}
+
+@media (max-width: 34em) {
+  /* SECTION GALLERY */
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}

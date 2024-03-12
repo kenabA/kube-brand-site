@@ -1,0 +1,27 @@
+Brand Introduction - eCommerce - Kube
+
+Brand title meaning:
+
+Kenab Kushal K.C.
+KKK
+K3
+K Cube
+Kube
+
+
+SECTIONS 
+
+- Hero
+- Products ( TITLE LINK : Link 1..3 / CTA : Shop Now) 
+- Gallery (CTA -> View More)
+- How its made 
+- Testomonial
+- Videos & Patners section
+- Our Heros (CHAIRMAN - DIRECTOR - CEO)
+- Footerh
+
+
+
+1. HERO PAGE
+2. IMAGE HOVER
+3. LINK BORDER END
