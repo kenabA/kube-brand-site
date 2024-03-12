@@ -180,8 +180,8 @@ body {
   font-size: 1.6rem;
 }
 
-.product-view-box {
-  padding-top: 8rem;
+.product__view-box {
+  padding-top: 8rem !important;
   border-top: 1px solid var(--white-secondary);
 }
 
@@ -561,4 +561,8 @@ video {
   z-index: 9999;
   bottom: 0%;
   transform: translate(0, 50%);
+}
+
+.footer__brand--cr {
+  font-size: 1.2rem;
 }

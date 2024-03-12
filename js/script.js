@@ -79,7 +79,13 @@ const loadMoreGallery = () => {
   viewMore.appendChild(arrowIcon);
 };
 
+function setCurrentYear() {
+  document.querySelector(".footer__brand--date").textContent =
+    new Date().getFullYear();
+}
+
 linkProductView();
 eventProductView();
 initialProductView();
 eventAccordion();
+setCurrentYear();
