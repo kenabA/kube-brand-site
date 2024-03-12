@@ -161,14 +161,8 @@ body {
   text-align: center;
 }
 
-.heading-box {
-  &--center {
-    text-align: center;
-  }
-
-  &--left {
-    text-align: left;
-  }
+.heading-box--left {
+  text-align: left;
 }
 
 .hero__image {

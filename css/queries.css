@@ -20,11 +20,19 @@
   .footer__contact--box {
     grid-column: span 2;
   }
+
+  .testimonial__box {
+    width: 80%;
+  }
 }
 
 /* BELOW 704px (Smaller Tablets) */
 
 @media (max-width: 44em) {
+  .testimonial__box {
+    width: 100%;
+  }
+
   html {
     font-size: 43.75%;
   }
@@ -118,5 +126,9 @@
 
   .extras__card--floating-card {
     margin-bottom: 12rem;
+  }
+
+  .extras__card--floating-card:nth-child(3) {
+    margin-bottom: 0;
   }
 }
