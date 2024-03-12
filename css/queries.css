@@ -72,12 +72,15 @@
   }
 
   /* SECTION MULTIMEDIA */
+
   .multimedia__video-boxes {
     grid-template-columns: 1fr;
   }
   .multimedia__img-boxes {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* SECTION EXTRAS */
 
   .extras__card--container {
     grid-template-columns: 1fr;
@@ -91,6 +94,7 @@
     margin-bottom: 0;
   }
 
+  /* SECTION FOOTER */
   .grid-footer {
     grid-template-columns: 1fr 1fr;
   }
@@ -108,5 +112,11 @@
   /* SECTION GALLERY */
   .grid--gallery {
     grid-template-columns: 1fr;
+  }
+
+  /* SECTION EXTRAS */
+
+  .extras__card--floating-card {
+    margin-bottom: 12rem;
   }
 }
