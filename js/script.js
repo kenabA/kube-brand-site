@@ -1,27 +1,29 @@
-const accordion = document.getElementsByClassName("accordion--content");
-const productCard = document.getElementsByClassName("product-card");
+const accordion = document.getElementsByClassName("accordion__content");
+const productCard = document.getElementsByClassName("product__card");
 const product = document.getElementsByClassName("product");
-const productTitle = document.querySelector(".product-view-title");
-const productImg = document.querySelector(".product--view--img");
+const productTitle = document.querySelector(".product__view--title");
+const productImg = document.querySelector(".product__view--img");
 const viewMore = document.querySelector(".view-more");
-const extraGalleryCard = document.getElementsByClassName("gallery--card-extra");
+const extraGalleryCard = document.getElementsByClassName(
+  "gallery__card--extra"
+);
 
 const initialProductView = () => {
   productImg.setAttribute(
     "src",
-    productCard[0].querySelector(".product--img").getAttribute("src")
+    productCard[0].querySelector(".product__img").getAttribute("src")
   );
   productTitle.textContent = productCard[0].querySelector(
-    ".heading-quaternary"
+    ".heading--quaternary"
   ).textContent;
 };
 
 const eventProductView = () => {
   for (i = 0; i < productCard.length; i++) {
     productCard[i].addEventListener("click", function () {
-      const childTitle = this.querySelector(".heading-quaternary").textContent;
+      const childTitle = this.querySelector(".heading--quaternary").textContent;
       const childImgSrc =
-        this.querySelector(".product--img").getAttribute("src");
+        this.querySelector(".product__img").getAttribute("src");
       productTitle.textContent = childTitle;
       productImg.setAttribute("src", childImgSrc);
     });
@@ -38,12 +40,12 @@ const eventAccordion = () => {
 
 const fetchProductView = (i) => {
   productTitle.textContent = productCard[i - 1].querySelector(
-    ".heading-quaternary"
+    ".heading--quaternary"
   ).textContent;
 
   productImg.setAttribute(
     "src",
-    productCard[i - 1].querySelector(".product--img").getAttribute("src")
+    productCard[i - 1].querySelector(".product__img").getAttribute("src")
   );
 };
 

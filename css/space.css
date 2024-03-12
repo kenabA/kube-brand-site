@@ -1,0 +1,46 @@
+.mt-32 {
+  margin-top: 3.2rem;
+}
+.mt-12 {
+  margin-top: 1.2rem;
+}
+
+.me-8 {
+  margin-right: 0.8rem;
+}
+
+.ms-8 {
+  margin-left: 0.8rem;
+}
+
+.mb-80 {
+  margin-bottom: 8rem;
+}
+
+.mb-64 {
+  margin-bottom: 6.4rem;
+}
+
+.mb-48 {
+  margin-bottom: 4.8rem;
+}
+
+.mb-24 {
+  margin-bottom: 2.4rem;
+}
+.mb-16 {
+  margin-bottom: 1.6rem;
+}
+.mb-8 {
+  margin-bottom: 1.6rem;
+}
+
+.mb-32 {
+  margin-bottom: 2.4rem;
+}
+
+.gap-48 {
+  row-gap: 4.8rem !important;
+  column-gap: 4.8rem !important
+  ;
+}

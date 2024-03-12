@@ -1,4 +1,4 @@
-var testimonialButtons = document.querySelectorAll(".testimonial-button");
+var testimonialButtons = document.querySelectorAll(".testimonial__button");
 
 const swiperAttr = {
   loop: true,
