@@ -1,3 +1,7 @@
+/* FONT */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+
 /* ROOT VARIABLES */
 
 :root {
@@ -27,7 +31,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif !important;
   line-height: 1;
   font-weight: 400;
   color: var(--black-shade-3);
